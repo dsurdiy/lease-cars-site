@@ -116,3 +116,27 @@ body {
 .main {
   flex-grow: 1;
 }
+
+.top {
+  padding-top: 105px;
+  padding-bottom: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 96px;
+}
+
+.top__link {
+  display: inline-block;
+  padding: 23px;
+  max-width: 430px;
+  width: 100%;
+  background-color: #151515;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+}
