@@ -69,6 +69,7 @@ body {
 
 .menu__list-link {
   color: #ffffff;
+  font-weight: 700;
 }
 
 .footer {
@@ -149,7 +150,14 @@ body {
   text-transform: uppercase;
 }
 
-.swiper-wrapper {
+.swiper::after {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
   background: rgba(21, 21, 21, 0.3);
 }
 
