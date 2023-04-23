@@ -42,6 +42,13 @@ body {
   padding: 0 10px;
 }
 
+.section-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+}
+
 .header {
   background-color: #151515;
 }
@@ -188,4 +195,29 @@ body {
 
 .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: 35px;
+}
+
+.features {
+  padding: 150px 0;
+}
+
+.features__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.features__img {
+  margin-bottom: 30px;
+}
+
+.features__item-title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.features__text {
+  text-align: left;
 }
