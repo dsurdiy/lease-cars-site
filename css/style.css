@@ -221,3 +221,55 @@ body {
 .features__text {
   text-align: left;
 }
+
+.work {
+  padding-bottom: 150px;
+}
+
+.work__inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.work__subtitle {
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.work__list {
+  padding: 50px 0 70px;
+  counter-reset: workCounter;
+}
+
+.work__item {
+  position: relative;
+  box-sizing: content-box;
+  width: 270px;
+  min-height: 63px;
+  margin-left: auto;
+  padding: 19px 0 19px 240px;
+  list-style-type: none;
+}
+
+.work__item + .work__item {
+  margin-top: 40px;
+}
+
+.work__item::before {
+  counter-increment: workCounter;
+  content: counter(workCounter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #0066ff;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+}
