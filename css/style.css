@@ -55,7 +55,7 @@ body {
 
 .header-main {
   position: absolute;
-  z-index: 5;
+  z-index: 10;
   left: 0;
   right: 0;
   background-color: transparent;
@@ -77,6 +77,10 @@ body {
 .menu__list-link {
   color: #ffffff;
   font-weight: 700;
+}
+
+.menu__list-link_active {
+  color: #0066ff;
 }
 
 .footer {
@@ -292,4 +296,27 @@ body {
 .promo-video__content {
   display: block;
   margin: 0 auto;
+}
+
+.important {
+  padding-bottom: 150px;
+}
+
+.important__title {
+  margin-bottom: 20px;
+}
+
+.important__text {
+  max-width: 580px;
+  margin: 0 auto 50px;
+}
+
+.important__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.important__img {
+  margin-bottom: 20px;
 }
