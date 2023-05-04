@@ -320,3 +320,71 @@ body {
 .important__img {
   margin-bottom: 20px;
 }
+
+.contact {
+  padding: 100px 0 150px;
+}
+
+.contact__title {
+  margin-bottom: 20px;
+}
+
+.contact__text {
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.form__textarea {
+  width: 100%;
+}
+
+.form__input {
+  width: 270px;
+  padding: 18px 20px;
+  border: 1px solid #0066ff;
+  margin-bottom: 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form__input::placeholder,
+.form__textarea::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #151515;
+  opacity: 0.5;
+}
+
+.form__textarea {
+  margin-bottom: 50px;
+  height: 290px;
+  resize: none;
+  padding: 28px 20px;
+  border: 1px solid #0066ff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form__btn {
+  margin: 0 auto;
+  padding: 13px 61px;
+  border: none;
+  cursor: pointer;
+  background-color: #151515;
+  font-family: inherit;
+  color: #ffffff;
+  font-size: 16px;
+}
