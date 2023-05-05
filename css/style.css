@@ -388,3 +388,44 @@ body {
   color: #ffffff;
   font-size: 16px;
 }
+
+.blog {
+  padding-bottom: 150px;
+}
+
+.blog__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-bottom: 70px;
+}
+
+.blog__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog__item-img {
+  margin-bottom: 30px;
+}
+
+.blog__item-title {
+  font-size: 24px;
+}
+
+.blog__item-link {
+  padding: 4px 20px;
+  background-color: #0066ff;
+  color: #ffffff;
+}
+
+.showmore-btn {
+  display: block;
+  margin: 0 auto;
+  width: 225px;
+  padding: 13px;
+  background-color: #151515;
+  color: #ffffff;
+  text-align: center;
+}
