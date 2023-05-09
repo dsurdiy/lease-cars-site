@@ -429,3 +429,64 @@ body {
   color: #ffffff;
   text-align: center;
 }
+
+.cars {
+  padding: 100px 0 150px;
+}
+
+.tabs__btn {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.tabs__btn-item {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 24px;
+  background-color: transparent;
+  border: none;
+}
+
+.tabs__btn-item--active {
+  color: #0066ff;
+}
+
+.tabs__content-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 40px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card__img {
+  display: block;
+}
+
+.card__inner {
+  padding: 20px 5px 0;
+  border: 1px solid #0066ff;
+  border-top: 0;
+}
+
+.card__title,
+.card__price {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card__text {
+  margin-bottom: 20px;
+}
+
+.card__link {
+  display: block;
+  color: #0066ff;
+  border: 1px solid #0066ff;
+  border-top: 0;
+}
